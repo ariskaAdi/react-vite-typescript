@@ -1,12 +1,13 @@
 type PersonProps = {
   name: string;
   age: number;
+  isLoggedIn: boolean;
 };
 const Person = (props: PersonProps) => {
   return (
-    <h1>
-      hello my name is {props.name} and my age is {props.age}
-    </h1>
+    <div>
+      <h1>{props.isLoggedIn ? `hello my name is ${props.name} and my age is ${props.age}` : `you are not logged in`}</h1>
+    </div>
   );
 };
 
