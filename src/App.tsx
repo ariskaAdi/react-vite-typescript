@@ -1,6 +1,5 @@
 import "./App.css";
-
-import User from "./components/user";
+import ReducerExample from "./components/reducer";
 function App() {
   // const peopleName = {
   //   firstName: "John",
@@ -10,7 +9,7 @@ function App() {
     <>
       {/* <Person name="jhon" age={20} isLoggedIn={true}></Person>
       <People name={peopleName}></People> */}
-      <User />
+      <ReducerExample />
     </>
   );
 }
