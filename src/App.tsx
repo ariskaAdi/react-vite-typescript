@@ -1,5 +1,5 @@
 import "./App.css";
-import ReducerExample from "./components/reducer";
+import Exam from "./components/effect";
 function App() {
   // const peopleName = {
   //   firstName: "John",
@@ -9,7 +9,7 @@ function App() {
     <>
       {/* <Person name="jhon" age={20} isLoggedIn={true}></Person>
       <People name={peopleName}></People> */}
-      <ReducerExample />
+      <Exam />
     </>
   );
 }
